@@ -1,11 +1,13 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import { lang } from '$lib/lang';
 </script>
 
 <div class="app">
+{#key $lang}
 	<Header />
-
+{/key}
 	<main>
 		<slot />
 	</main>
