@@ -5,7 +5,7 @@ import { paraglide } from '@inlang/paraglide-js-adapter-vite';
 export default defineConfig({
   plugins: [
     paraglide({
-      project: './my-project.inlang', //Path to your inlang project
+      project: './pursiny-sveltekit.inlang', //Path to your inlang project
       outdir: './src/paraglide', //Where you want the generated files to be placed
     }),
     sveltekit(),
