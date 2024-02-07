@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "monorepo paragiide-js compile",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "../monorepo/inlang/source-code/paraglide/paraglide-js/bin/run.js",
+      "args": [
+        "compile",
+        "--project",
+        "./project.inlang"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
