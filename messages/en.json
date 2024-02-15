@@ -2,5 +2,5 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"home": "Home",
 	"about": "About",
-	"a_message_without_a_translation": "A message without a translation"
+	"a_message_without_a_translation": "untranslated"
 }

@@ -13,6 +13,8 @@
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
+		"@inlang/cli": "../monorepo/inlang/source-code/cli",
+		"@inlang/paraglide-js": "../monorepo/inlang/source-code/paraglide/paraglide-js",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
@@ -21,8 +23,7 @@
 		"svelte-check": "^3.6.0",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"vite": "^5.0.3",
-		"@inlang/paraglide-js": "../monorepo/inlang/source-code/paraglide/paraglide-js"
+		"vite": "^5.0.3"
 	},
 	"type": "module"
 }
