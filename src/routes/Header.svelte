@@ -26,7 +26,42 @@
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Sverdle</a>
 			</li>
-			<li>{m.a_message_without_a_translation()}</li>
+			<li>{m.a()}</li>
+			<li>{m.b()}</li>
+			<li>{m.c()}</li>
+			<li>{m.d()}</li>
+			<li>{m.e()}</li>
+			<li>{m.f()}</li>
+			<li>{m.g()}</li>
+			<li>{m.h()}</li>
+			<li>{m.i()}</li>
+			<li>{m.j()}</li>
+			<li>{m.k()}</li>
+			<li>{m.l()}</li>
+			<li>{m.m()}</li>
+			<li>{m.n()}</li>
+			<li>{m.o()}</li>
+			<li>{m.p()}</li>
+			<li>{m.q()}</li>
+			<li>{m.r()}</li>
+			<li>{m.s()}</li>
+			<li>{m.t()}</li>
+			<li>{m.u()}</li>
+			<li>{m.v()}</li>
+			<li>{m.w()}</li>
+			<li>{m.x()}</li>
+			<li>{m.y()}</li>
+			<li>{m.z()}</li>
+			<li>{m._0()}</li>
+			<li>{m._1()}</li>
+			<li>{m._2()}</li>
+			<li>{m._3()}</li>
+			<li>{m._4()}</li>
+			<li>{m._5()}</li>
+			<li>{m._6()}</li>
+			<li>{m._7()}</li>
+			<li>{m._8()}</li>
+			<li>{m._9()}</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
