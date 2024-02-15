@@ -16,5 +16,8 @@
   ],
   "plugin.inlang.messageFormat": {
     "pathPattern": "./messages/{languageTag}.json"
+  },
+  "featureFlags": {
+    "aliases": true
   }
 }
